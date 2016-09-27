@@ -220,6 +220,7 @@
 				TargetAttributes = {
 					3B8117511D9A7F3600C5FC79 = {
 						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 7AA5K7MFZY;
 					};
 					3B8117651D9A7F3800C5FC79 = {
 						CreatedOnToolsVersion = 7.3.1;
@@ -475,6 +476,7 @@
 			baseConfigurationReference = B09AA3004ECC841465EB4B07 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = Highway/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.aintuinc.Highway;
@@ -487,6 +489,7 @@
 			baseConfigurationReference = 8ADE1540C92F4D3FC240B3AA /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = Highway/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.aintuinc.Highway;

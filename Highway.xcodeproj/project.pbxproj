@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1F9ECE7AA45453E2AA100D54 /* Pods_HighwayTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8E45970D053452D9476D0142 /* Pods_HighwayTests.framework */; };
 		3B8117561D9A7F3700C5FC79 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B8117551D9A7F3700C5FC79 /* AppDelegate.swift */; };
 		3B8117581D9A7F3700C5FC79 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B8117571D9A7F3700C5FC79 /* ViewController.swift */; };
 		3B81175B1D9A7F3700C5FC79 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3B8117591D9A7F3700C5FC79 /* Main.storyboard */; };
@@ -14,6 +15,9 @@
 		3B8117601D9A7F3700C5FC79 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3B81175E1D9A7F3700C5FC79 /* LaunchScreen.storyboard */; };
 		3B81176B1D9A7F3900C5FC79 /* HighwayTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B81176A1D9A7F3900C5FC79 /* HighwayTests.swift */; };
 		3B8117761D9A7F3900C5FC79 /* HighwayUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B8117751D9A7F3900C5FC79 /* HighwayUITests.swift */; };
+		3BAE9A381DABD87600D1B5E0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B8117551D9A7F3700C5FC79 /* AppDelegate.swift */; };
+		3BAE9A391DABD87600D1B5E0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B8117551D9A7F3700C5FC79 /* AppDelegate.swift */; };
+		CEAD7C8866BB6B1FB78C5D0B /* Pods_HighwayUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 86166C4AA2EF81B98676CE44 /* Pods_HighwayUITests.framework */; };
 		D3A2C59FB777342C620D3831 /* Pods_Highway.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57ED6EE6C27AD43B3999ED82 /* Pods_Highway.framework */; };
 /* End PBXBuildFile section */
 
@@ -51,7 +55,13 @@
 		3B8117771D9A7F3900C5FC79 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		57ED6EE6C27AD43B3999ED82 /* Pods_Highway.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Highway.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		677AA2AE2B5183815B217DEB /* Pods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		86166C4AA2EF81B98676CE44 /* Pods_HighwayUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HighwayUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8E45970D053452D9476D0142 /* Pods_HighwayTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HighwayTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A33B86B4D50B53A61EB745F8 /* Pods-HighwayUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HighwayUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-HighwayUITests/Pods-HighwayUITests.release.xcconfig"; sourceTree = "<group>"; };
+		B3440B0C441551D9E31CCAA4 /* Pods-HighwayTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HighwayTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HighwayTests/Pods-HighwayTests.debug.xcconfig"; sourceTree = "<group>"; };
 		B91E6C66E9091FACD98C37C1 /* Pods-Highway.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Highway.release.xcconfig"; path = "Pods/Target Support Files/Pods-Highway/Pods-Highway.release.xcconfig"; sourceTree = "<group>"; };
+		BC76B277CF3A4814596BFD32 /* Pods-HighwayUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HighwayUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HighwayUITests/Pods-HighwayUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		DF8ACD241638BEF457B2012E /* Pods-HighwayTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HighwayTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-HighwayTests/Pods-HighwayTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +77,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1F9ECE7AA45453E2AA100D54 /* Pods_HighwayTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,6 +85,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CEAD7C8866BB6B1FB78C5D0B /* Pods_HighwayUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,6 +150,10 @@
 			children = (
 				375BCB7FFE4F7A2F6CD1E751 /* Pods-Highway.debug.xcconfig */,
 				B91E6C66E9091FACD98C37C1 /* Pods-Highway.release.xcconfig */,
+				B3440B0C441551D9E31CCAA4 /* Pods-HighwayTests.debug.xcconfig */,
+				DF8ACD241638BEF457B2012E /* Pods-HighwayTests.release.xcconfig */,
+				BC76B277CF3A4814596BFD32 /* Pods-HighwayUITests.debug.xcconfig */,
+				A33B86B4D50B53A61EB745F8 /* Pods-HighwayUITests.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -147,6 +163,8 @@
 			children = (
 				677AA2AE2B5183815B217DEB /* Pods.framework */,
 				57ED6EE6C27AD43B3999ED82 /* Pods_Highway.framework */,
+				8E45970D053452D9476D0142 /* Pods_HighwayTests.framework */,
+				86166C4AA2EF81B98676CE44 /* Pods_HighwayUITests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -178,9 +196,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3B81177D1D9A7F3900C5FC79 /* Build configuration list for PBXNativeTarget "HighwayTests" */;
 			buildPhases = (
+				716602C12B1B33BB9DB29C5F /* [CP] Check Pods Manifest.lock */,
 				3B8117621D9A7F3800C5FC79 /* Sources */,
 				3B8117631D9A7F3800C5FC79 /* Frameworks */,
 				3B8117641D9A7F3800C5FC79 /* Resources */,
+				5171EA1BEE948925A90AF894 /* [CP] Embed Pods Frameworks */,
+				0EA35302421CC706FB04C5E1 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -196,9 +217,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3B8117801D9A7F3900C5FC79 /* Build configuration list for PBXNativeTarget "HighwayUITests" */;
 			buildPhases = (
+				52D63B809E8CB1EE51101D16 /* [CP] Check Pods Manifest.lock */,
 				3B81176D1D9A7F3900C5FC79 /* Sources */,
 				3B81176E1D9A7F3900C5FC79 /* Frameworks */,
 				3B81176F1D9A7F3900C5FC79 /* Resources */,
+				98B2649DB97EE7C68A3FD6F6 /* [CP] Embed Pods Frameworks */,
+				D3DC05E1A9C3653C8676723E /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -285,6 +309,21 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		0EA35302421CC706FB04C5E1 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HighwayTests/Pods-HighwayTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		113CC5D8C0C9B3FFC07B2F85 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -298,6 +337,81 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Highway/Pods-Highway-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5171EA1BEE948925A90AF894 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HighwayTests/Pods-HighwayTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		52D63B809E8CB1EE51101D16 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		716602C12B1B33BB9DB29C5F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		98B2649DB97EE7C68A3FD6F6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HighwayUITests/Pods-HighwayUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D3DC05E1A9C3653C8676723E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HighwayUITests/Pods-HighwayUITests-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		F1FC1270F7E8CDE9908D227A /* [CP] Check Pods Manifest.lock */ = {
@@ -346,6 +460,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3BAE9A381DABD87600D1B5E0 /* AppDelegate.swift in Sources */,
 				3B81176B1D9A7F3900C5FC79 /* HighwayTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -354,6 +469,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3BAE9A391DABD87600D1B5E0 /* AppDelegate.swift in Sources */,
 				3B8117761D9A7F3900C5FC79 /* HighwayUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -506,6 +622,7 @@
 		};
 		3B81177E1D9A7F3900C5FC79 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B3440B0C441551D9E31CCAA4 /* Pods-HighwayTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = HighwayTests/Info.plist;
@@ -519,6 +636,7 @@
 		};
 		3B81177F1D9A7F3900C5FC79 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DF8ACD241638BEF457B2012E /* Pods-HighwayTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = HighwayTests/Info.plist;
@@ -532,6 +650,7 @@
 		};
 		3B8117811D9A7F3900C5FC79 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BC76B277CF3A4814596BFD32 /* Pods-HighwayUITests.debug.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = HighwayUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -544,6 +663,7 @@
 		};
 		3B8117821D9A7F3900C5FC79 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A33B86B4D50B53A61EB745F8 /* Pods-HighwayUITests.release.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = HighwayUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";

@@ -481,7 +481,7 @@
 			baseConfigurationReference = 375BCB7FFE4F7A2F6CD1E751 /* Pods-Highway.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Jakub Sekerka (4KN322QGKD)";
 				INFOPLIST_FILE = Highway/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.aintuinc.Highway;
@@ -495,7 +495,7 @@
 			baseConfigurationReference = B91E6C66E9091FACD98C37C1 /* Pods-Highway.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Jakub Sekerka (4KN322QGKD)";
 				INFOPLIST_FILE = Highway/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.aintuinc.Highway;

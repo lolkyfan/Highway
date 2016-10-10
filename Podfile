@@ -1,3 +1,5 @@
 use_frameworks!
 
-pod 'RealmSwift'
+target 'Highway' do
+    pod 'RealmSwift'
+end
